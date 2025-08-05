@@ -7,7 +7,6 @@ except ValueError:
 else:
     print("Результат сложения:", amount)
 
-
 try:
     c = int(input("Введите первое число: "))
     d = int(input("Введите второе число: "))
@@ -17,7 +16,6 @@ except ValueError:
 else:
     print("Результат вычитания:", difference)
 
-
 try:
     e = int(input("Введите первое число: "))
     f = int(input("Введите второе число: "))
@@ -26,7 +24,6 @@ except ValueError:
     print("Введено не число")
 else:
     print("Результат умножения:", multiplication)
-
 
 try:
     j = int(input("Введите первое число: "))
@@ -38,5 +35,3 @@ except ZeroDivisionError:
     print("На ноль делить нельзя")
 else:
     print("Результат деления:", division)
-
-
