@@ -10,6 +10,6 @@ try:
     if 1 <= number <= 5:
         print(f"Число {number} на английском: {number_words[number]}")
     else:
-        print("Ошибка! Введите число от 1 до 5")
+        print("Ошибка! Число не попадает в диапазон от 1 до 5")
 except ValueError:
     print("Ошибка! Введите целое число от 1 до 5")
